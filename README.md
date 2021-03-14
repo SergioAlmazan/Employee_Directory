@@ -13,7 +13,7 @@ npm install
 ```
 
 ## Preview
-* View deployed app on [GitHub Pages](https://sergioalmazan.github.io/Employee_Directory/).\
+* View deployed app on [GitHub Pages](https://sergioalmazan.github.io/Employee_Directory/).
 
 ![ScreenShot](/public/employee.PNG)
 

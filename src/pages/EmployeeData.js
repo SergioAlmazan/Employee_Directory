@@ -8,13 +8,13 @@ const EmployeeData = (props) => {
         label: "Name",
         field: "name",
         sort: "asc",
-        width: 500,
+        width: 300,
       },
       {
         label: "Email Address",
         field: "email",
         sort: "asc",
-        width: 500,
+        width: 300,
       },
       {
         label: "Phone #",
@@ -23,7 +23,7 @@ const EmployeeData = (props) => {
         width: 300,
       },
       {
-        label: "DOB",
+        label: "Age",
         field: "dob",
         sort: "asc",
         width: 250,

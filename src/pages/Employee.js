@@ -18,7 +18,7 @@ class Employee extends React.Component {
             name: eData[i].name.first + " " + eData[i].name.last,
             email: eData[i].email,
             phone: eData[i].cell,
-            dob: eData[i].dob.date,
+            dob: eData[i].dob.age,
           };
           recordStamp.push(erecord);
         }
@@ -29,7 +29,6 @@ class Employee extends React.Component {
   render() {
     return (
       <div>
-        <h2>Employee Roster</h2>
         <EmployeeData employees={this.state.employeeRecords} />
       </div>
     );

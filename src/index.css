@@ -18,6 +18,9 @@ body {
 
 }
 
+.pagination .page-item .page-link, .dataTables_info {
+    color: white !important;
+}
 
 div h2, label, tr {
   color: white;
